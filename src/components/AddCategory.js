@@ -20,7 +20,9 @@ export const AddCategory = ({setCategories}) => {
      }
 
      return (
+
           <form onSubmit={handleSubmit}>
+               <h3 className='animate__animated animate__pulse'>Busca los GIF's que mas te interesen</h3>
                 <input 
                     type = "text"
                     value = {inputValue}

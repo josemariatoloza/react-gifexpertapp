@@ -3,13 +3,39 @@
 }
 
 body {
+  background-image: url('https://i.pinimg.com/originals/9b/c9/8f/9bc98f55db5737c6b9601ea215f14467.jpg');
   padding: 60px;
 }
 
+h2 {
+  color: whitesmoke;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  font-style:italic;
+  font-size:5em;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+h3 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-decoration-color: rgb(165, 165, 35);
+  text-decoration-style: solid;
+}
+
+
 input{
-  color: blue;
-  font-size: 1.2rem ;
-  width: 100%;
+  background-color: rgba(216, 231, 7, 0.925);
+  border-radius: 7.5px;
+  border-color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em ;
+  width: 30%;
 }
 
 
@@ -23,16 +49,18 @@ input{
 }
 
 .card p {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
   padding: 5px;
   text-align: center;
 }
 
 .card img{
-  max-height: 170px;
+  max-height: 250px;
 }
 
 .card-grid {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
